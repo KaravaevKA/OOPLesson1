@@ -1,6 +1,8 @@
-package products;
+package products.models.base;
 
-public class Lemonade extends Drinks{
+import products.models.Drinks;
+
+public class Lemonade extends Drinks {
 
     public Lemonade(String title, Double price, Integer count, String unitOfMeasurement, Double volume) {
         super(title, price, count, unitOfMeasurement, volume);

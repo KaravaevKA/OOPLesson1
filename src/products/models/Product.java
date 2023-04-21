@@ -1,4 +1,4 @@
-package products;
+package products.models;
 
 public class Product {
     public Product(String title, Double price, Integer count, String unitOfMeasurement) {

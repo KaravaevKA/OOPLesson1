@@ -1,5 +1,8 @@
 package products;
 
+import products.models.Product;
+import products.models.base.*;
+
 public class Program {
     public static void main(String[] args) {
         Product[] products = {new Bread("Бородинский",32.50,2, "шт.",4.23,"ржаной"),

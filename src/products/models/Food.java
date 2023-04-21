@@ -1,6 +1,4 @@
-package products;
-
-import java.util.Date;
+package products.models;
 
 public class Food extends Product{
     private Double expireDate;

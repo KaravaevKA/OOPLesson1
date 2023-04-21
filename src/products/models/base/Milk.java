@@ -1,6 +1,8 @@
-package products;
+package products.models.base;
 
-public class Milk extends Drinks{
+import products.models.Drinks;
+
+public class Milk extends Drinks {
 
     public Milk(String title, Double price, Integer count, String unitOfMeasurement, Double volume, Integer fatContentPercentage, Double dateExp) {
         super(title, price, count, unitOfMeasurement, volume);

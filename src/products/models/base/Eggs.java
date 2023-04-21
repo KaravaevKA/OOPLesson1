@@ -1,8 +1,8 @@
-package products;
+package products.models.base;
 
-import java.util.Date;
+import products.models.Food;
 
-public class Eggs extends Food{
+public class Eggs extends Food {
     public Eggs(String title, Double price, Integer count, String unitOfMeasurement, Double expireDate) {
         super(title, price, count, unitOfMeasurement, expireDate);
     }

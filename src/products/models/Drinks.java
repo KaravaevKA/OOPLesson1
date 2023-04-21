@@ -1,4 +1,4 @@
-package products;
+package products.models;
 
 public class Drinks extends Product{
     private Double volume;

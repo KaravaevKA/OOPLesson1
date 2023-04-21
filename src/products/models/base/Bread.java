@@ -1,6 +1,6 @@
-package products;
+package products.models.base;
 
-import java.util.Date;
+import products.models.Food;
 
 public class Bread extends Food {
     public Bread(String title, Double price, Integer count, String unitOfMeasurement, Double expireDate, String flourType) {

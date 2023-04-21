@@ -1,6 +1,8 @@
-package products;
+package products.models.base;
 
-public class Diapers extends ChildProducts{
+import products.models.ChildProducts;
+
+public class Diapers extends ChildProducts {
 
     public Diapers(String title, Double price, Integer count, String unitOfMeasurement, Integer minAge, String hypoallergenic, Integer minWeight, Integer maxWeight) {
         super(title, price, count, unitOfMeasurement, minAge, hypoallergenic);
